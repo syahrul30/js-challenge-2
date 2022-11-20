@@ -24,10 +24,10 @@ const dataAneh = {
   
 
     // tanpa function
-    
+
     const getHobbies = dataAneh.listing[1].hobbies;
 
-    // console.log(getHobbie
+    // console.log(getHobbies)
 
     for (const key in getHobbies) {
     
@@ -37,8 +37,6 @@ const dataAneh = {
     // pakai function
 
     function getHobbies(param) {
-      let result = ''
-      let hobbiesResult = ''
       param.listing.filter((item) => {
 
         if (item.name === 'ahmad') {
@@ -48,7 +46,7 @@ const dataAneh = {
           hobbiesResult = result[key];
         };
       });
-      return ''
+      return 
     };
 
-    // console.log(getHobbies(dataAneh));
+    console.log(getHobbies(dataAneh));
